@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body >
+
+
+    <div style="color:blue">
+        <form action="{{ url_for('predict_insurance_charge')}}" method="post">
+            <h2>Insurance Charge prediction</h2>
+
+            <h3>Enter the Age</h3><br><input id="age" name="age" required="required">
+            <h3>Enter the Bmi value</h3><br><input id="bmi" name="bmi" required="required">
+            <h3>Enter the Number of children</h3><br><input id="children" name="children" required="required">
+            <h3>Enter the Gender</h3><br><select name="sex" id="sex" required="required">
+                <option value="Female">Female</option>
+                <option value="Male">Male</option>
+            </select>
+
+            <h3>Smoker</h3><br><select name="smoker" id="smoker" required="required">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+
+               <h3>Enter the region</h3><br><select name="region" id="region" required="required">
+                <option value="northwest">northwest</option>
+                <option value="southeast">southeast</option>
+                <option value="southwest">southwest</option>
+                <option value="northeast">northeast</option>
+            </select>
+
+
+            <br><br><button id="sub" type="submit ">Prediction</button>
+            <br>
+
+
+
+
+        </form>
+
+
+
+        <br><br><h3>{{ prediction_text }}</h3>
+    </div>
+
+
+
+
+    <style>
+        body {
+            background-color:olive;
+            text-align: center;
+            padding: 0px;
+        }
+
+
+
+        #sub {
+            width: 120px;
+            height: 43px;
+            text-align: center;
+            border-radius: 14px;
+            font-size: 18px;
+        }
+
+        #sub:hover {
+            background-color: darkcyan;
+        }
+
+
+    </style>
+</body>
+
+</html>
