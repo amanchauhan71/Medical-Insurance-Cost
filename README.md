@@ -67,4 +67,3 @@ The dataset used can be downloaded here (Kaggle) - [Click to Download](https://w
 Made with :heart:&nbsp;  by [Aman Chauhan](https://github.com/amanchauhan71)
 
 
-http://medicalinsurance-env.eba-3xpzmsre.us-east-2.elasticbeanstalk.com/
