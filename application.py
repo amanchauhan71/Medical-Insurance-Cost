@@ -14,7 +14,7 @@ def Home():
     return render_template('index.html')
 
 
-@application.route("/predict", methods=['POST'])
+@application.route("/predict", methods = ["GET", "POST"])
 def predict_insurance_charge():
     if request.method == 'POST':
 
@@ -63,7 +63,9 @@ def predict_insurance_charge():
              region_southwest]])
 
         prediction = insurance.predict(scaled_data)
-        return render_template('index.html', prediction_text=str(prediction))
+
+        output = round(prediction[0], 2)
+        return render_template('index.html', prediction_text="Your insurance charge is Rs. {}".format(output))
 
     else:
         return render_template('index.html')
