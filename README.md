@@ -2,7 +2,7 @@
 
 <div align= "center">
   <h4>Medical Insurance Cost Prediction using XGBoost Regressor.</h4><br>
-  <img src="https://github.com/amanchauhan71/Medical-Insurance-Cost/blob/main/images/health-insurance.gif">
+  <img src="https://github.com/amanchauhan71/Medical-Insurance-Cost-/blob/main/images/health-insurance.jpg">
 </div>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -19,13 +19,18 @@ Finally deploy the application on AWS cloud.
 
 ## :hourglass: Some Screenshots
 
-![](https://github.com/amanchauhan71/Medical-Insurance-Cost/blob/main/images/browser_testing.png)
+![](https://github.com/amanchauhan71/Medical-Insurance-Cost-/blob/main/images/browser_testing.png)
 
-![](https://github.com/amanchauhan71/Medical-Insurance-Cost/blob/main/images/postman_testing.png)
+![](https://github.com/amanchauhan71/Medical-Insurance-Cost-/blob/main/images/postman_testing.png)
 
-![](https://github.com/amanchauhan71/Medical-Insurance-Cost/blob/main/images/swagger_testing_1.png)
+![](https://github.com/amanchauhan71/Medical-Insurance-Cost-/blob/main/images/swagger_testing_1.png)
 
-![](https://github.com/amanchauhan71/Medical-Insurance-Cost/blob/main/images/swagger_testing_2.png)
+![](https://github.com/amanchauhan71/Medical-Insurance-Cost-/blob/main/images/swagger_testing_2.png)
+
+## :Final Project : 
+
+![](https://github.com/amanchauhan71/Medical-Insurance-Cost-/blob/main/images/final_project.png)
+
 
 ## :star: Features
 <ol>
