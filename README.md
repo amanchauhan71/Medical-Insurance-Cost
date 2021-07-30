@@ -27,9 +27,9 @@ Finally deploy the application on AWS cloud.
 
 ![](https://github.com/amanchauhan71/Medical-Insurance-Cost-/blob/main/images/swagger_testing_2.png)
 
-## :Final Project : 
+## Final: Project 
 
-![](https://github.com/amanchauhan71/Medical-Insurance-Cost-/blob/main/images/final_project.png)
+![](https://github.com/amanchauhan71/Medical-Insurance-Cost-/blob/main/images/final_project.PNG)
 
 
 ## :star: Features
