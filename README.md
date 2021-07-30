@@ -1,9 +1,14 @@
 <h1 align="center">Medical Insurance Cost Prediction</h1>
 
+## Final Project Deployment link  :
+
+http://medicalinsurance-env-2.eba-r8kw8jqt.us-east-2.elasticbeanstalk.com/predict
+
 <div align= "center">
   <h4>Medical Insurance Cost Prediction using XGBoost Regressor.</h4><br>
   <img src="https://github.com/amanchauhan71/Medical-Insurance-Cost/blob/main/images/health-insurance.jpg">
 </div>
+
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
