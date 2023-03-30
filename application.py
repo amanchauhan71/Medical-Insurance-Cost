@@ -2,10 +2,12 @@ from flask import Flask, request, render_template
 import pandas as pd
 import numpy as np
 import pickle
+from sklearn.ensemble import GradientBoostingClassifier
+
 from sklearn.preprocessing import StandardScaler
 
 application = Flask(__name__)
-pickle_in = open('insurance.pkl', 'rb')
+pickle_in = open('insurance_new.pkl', 'rb')
 insurance = pickle.load(pickle_in)
 
 
